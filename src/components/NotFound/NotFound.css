@@ -1,0 +1,25 @@
+.not-found-style{
+    height: 600px;
+    display: flex;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid #5bc198;
+    background: #141414;
+}
+
+.btn-back-home{
+    border: none;
+    background-color: rgba(129, 231, 231, 0.767);
+    padding: 8px 25px;
+    transition: all 0.3s;
+}
+
+.btn-back-home:hover{
+    background: rgb(0, 0, 0);
+}
+
+.not-style h1{
+    font-size: 70px;
+    font-weight: 900;
+}

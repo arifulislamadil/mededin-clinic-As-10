@@ -1,0 +1,31 @@
+.service-block {
+    background: url(../../services-bg2.png);
+    background-size: cover;
+    padding: 30px;
+    border: 10px solid rgb(248, 248, 248);
+    transition: all 0.3s ease;
+}
+
+.service-block:hover{
+    border: 10px solid #52af90b6!important;
+}
+.service-block a{
+    text-decoration: none!important;
+    display: inline-block;
+    padding: 14px 22px;
+    font-size: 14px;
+    border-radius: 7px;
+    background-color: white;
+    -webkit-box-shadow: 0.8px 3.094px 12px 0 #2c2e31;
+    box-shadow: 0.8px 3.094px 12px 0 #2c2e31;
+    border: transparent;
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease;
+    
+}
+
+.service-block a:hover{
+     background-color: #acdfbd;
+  
+    color: rgb(255, 255, 255);
+}

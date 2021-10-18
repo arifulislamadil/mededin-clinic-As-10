@@ -1,0 +1,15 @@
+.blog-content{
+    border-right: 1px solid #ccc;
+    color: rgba(63, 63, 63, 0.623);
+}
+
+.blog-btn{
+    background:cornflowerblue;
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+}

@@ -1,0 +1,10 @@
+.form-full{
+    background: url("../../contact-1\ \(2\).jpg");
+    background-size: cover;
+}
+
+.contact-info{
+    background: rgba(48, 192, 178, 0.733);
+    padding: 20px;
+    margin-top: 5px;
+}

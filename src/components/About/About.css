@@ -1,0 +1,11 @@
+.sub-header{
+    background:url('../../about.png');
+    background-size: cover;
+    color: rgb(61, 61, 61);
+ 
+}
+
+.our-success{
+    border: 5px solid #15f5aafb;
+    padding: 10px;
+}

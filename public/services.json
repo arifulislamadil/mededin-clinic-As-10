@@ -1,0 +1,58 @@
+{
+    "services": [
+        {
+            "id": 1001,
+            "service_name": "Dental Care",
+            "img": "https://demo.web3canvas.com/themeforest/medenin/images/service-icon1.png",
+            "fee": 400,
+            "description": "General dentists prevent, evaluate, diagnose, and treat diseases of the oral cavity, as well as maintain the function and appearance of the teeth. Many oral diseases and abnormalities can indicate other diseases. A general dentist may refer patients to their physician or a specialist for further evaluation, or vice versa for treatment.",
+            "doctor": "Dr. Mr.Robart",
+            "visit_time": "9am to 5pm"
+        },
+        {
+            "id": 1002,
+            "service_name": "Eye Care",
+            "img": "https://demo.web3canvas.com/themeforest/medenin/images/service-icon2.png",
+            "fee": 600,
+            "description": "Primary eye care services include: Educating patients about maintaining and promoting healthy vision. Performing a comprehensive examination of the visual system. Screening for eye diseases and conditions affecting vision that may be asymptomatic.",
+            "doctor": "Dr.Albart",
+            "visit_time": "9am to 5pm"
+        },
+        {
+            "id": 1003,
+            "service_name": "Allergic Issue            ",
+            "img": "https://demo.web3canvas.com/themeforest/medenin/images/service-icon3.png",
+            "fee": 500,
+            "description": "Introductory courses will teach basic cooking skills and techniques. Preparation An allergy is an exaggerated reaction by the immune system in response to exposure to certain foreign substances. The response is exaggerated because these foreign substances are normally seen as harmless by the immune system in nonallergic individuals and do not cause a response in them.of stocks, vegetables and meats may be introduced, along with the fundamental concepts of table service and kitchen sanitation. ",
+            "doctor": "Dr.Maria",
+            "visit_time": "9am to 5pm"
+        },
+        {
+            "id": 1004,
+            "service_name": "Cardiology",
+            "img": "https://demo.web3canvas.com/themeforest/medenin/images/service-icon4.png",
+            "fee": 460,
+            "description": "Cardiology is a branch of medicine that deals with the disorders of the heart as well as some parts of the circulatory system. The field includes medical diagnosis and treatment of congenital heart defects, coronary artery disease, heart failure, valvular heart disease and electrophysiology",
+            "doctor": "Dr.Dew",
+            "visit_time": "9am to 5pm"
+        },
+        {
+            "id": 1005,
+            "service_name": "Neurology Sargery",
+            "img": "https://demo.web3canvas.com/themeforest/medenin/images/service-icon5.png",
+            "fee": 400,
+            "description": "Neurosurgeons perform surgery on the brain, spinal cord, and peripheral nerves to remove tumors, relieve chronic pain, and treat wounds, vascular disorders, and diseases such as Parkinson's and epilepsy. They also use surgery to relieve hydrocephalus, which is the abnormal build-up of cerebrospinal fluid in the brain",
+            "doctor": "Dr.Faoji",
+            "visit_time": "9am to 5pm"
+        },
+        {
+            "id": 1006,
+            "service_name": "Allergic Issue            ",
+            "img": "https://demo.web3canvas.com/themeforest/medenin/images/service-icon6.png",
+            "fee": 560,
+            "description": "An allergy is an exaggerated reaction by the immune system in response to exposure to certain foreign substances. The response is exaggerated because these foreign substances are normally seen as harmless by the immune system in nonallergic individuals and do not cause a response in them.",
+            "doctor": "Dr.landi",
+            "visit_time": "9am to 5pm"
+        }
+    ]
+}
