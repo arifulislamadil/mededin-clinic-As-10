@@ -12,7 +12,7 @@ const Header = () => {
                     <Navbar bg="" expand="lg" >
                         <Container fluid>
                             <Navbar.Brand to="/home" className="header-logo  text-danger text-uppercase">
-                                <Link to="/logo">
+                                <Link to="/">
                                     <img src="https://demo.web3canvas.com/themeforest/medenin/images/logo.png" alt="" />
                                 </Link>
                             </Navbar.Brand>
