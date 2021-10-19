@@ -15,7 +15,7 @@ Medenin Clinic is one of the top clinic in Newwork City,Here is all services are
 
 ### About Mededin Clinic
 
-# Clinic, an organized medical service offering diagnostic, therapeutic, or preventive outpatient services. Often, the term covers an entire medical teaching centre, including the hospital and the outpatient facilities. The medical care offered by a clinic may or may not be connected with a hospital
+##### Clinic, an organized medical service offering diagnostic, therapeutic, or preventive outpatient services. Often, the term covers an entire medical teaching centre, including the hospital and the outpatient facilities. The medical care offered by a clinic may or may not be connected with a hospital
 
 
 ### Using Tools For Build This Website
@@ -29,6 +29,7 @@ Medenin Clinic is one of the top clinic in Newwork City,Here is all services are
 	<li>Firebase</li>
 </ol>
 
-## Builder Name #### Ariful Islam
+## Builder Name 
+### Ariful Islam
 
 #### © 2021 Mednenin, All Rights Reserved. Design By Ariful Islam Adil
