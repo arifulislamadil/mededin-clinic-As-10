@@ -10,8 +10,8 @@ const Register = () => {
     return (
         <div className="form-full">
             <div className="container pt-5 pb-5 ">
-                <div className="text-center">
-                    <h1>Please Register</h1>
+                <div className="text-center text-white">
+                    <h1 >Please Register</h1>
                     <p>Already have an accout <Link to="/login">Login</Link> </p>
                 </div>
                 <div className="d-flex align-items-center justify-content-center">
@@ -29,7 +29,7 @@ const Register = () => {
                         </form>
 
 
-                        <div className="mt-2 text-center text-success">------OR-------</div>
+                        <div className="mt-2 text-center text-white">------OR-------</div>
 
                         <button onClick={loginWithGoogle} className="mt-2 form-control">
                             <span className="text-success">    < BsGoogle /></span>   Login With Google</button>

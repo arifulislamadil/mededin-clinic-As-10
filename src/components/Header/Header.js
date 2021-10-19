@@ -79,20 +79,23 @@ const Header = () => {
                                         Contact
                                     </NavLink>
 
-                                    <NavLink className="me-2 text-dark  text-decoration-none link-style"
-                                        to="/register"
-                                        activeStyle={{
-                                            fontWeight: "bold",
-                                            color: " #3bf178"
-                                        }}
-                                    >
-                                        Register
+                                    {user.email ?
+                                        <span className="text-white me-1 btn btn-dark pt-1 pb-1 bs-2 be-2 text-decoration-none link-style">{user.displayName}</span> :
 
-                                    </NavLink>
+                                        <NavLink className="me-2 text-dark  text-decoration-none link-style"
+                                            to="/register"
+                                            activeStyle={{
+                                                fontWeight: "bold",
+                                                color: " #3bf178"
+                                            }}
+                                        >
+                                            Register
+                                        </NavLink>}
+
 
                                     {user.email ? <NavLink onClick={handleLogout} className="me-2 btn btn-success pt-1 pb-1 bs-2 be-2 text-decoration-none link-style"
                                         to="/">
-                                        <span className="text-info">{user.displayName}</span>    Logout
+                                        Logout
 
                                     </NavLink>
                                         :

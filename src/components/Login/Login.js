@@ -26,7 +26,7 @@ const Login = () => {
     return (
         <div className="form-full">
             <div className="container pt-5 pb-5">
-                <div className="text-center">
+                <div className="text-center text-white">
 
                     <h1>Signin</h1>
                     <p>Don't have accout <Link to="/register">Create Account here</Link> </p>
@@ -43,7 +43,7 @@ const Login = () => {
 
                         </form>
 
-                        <div className="mt-2 text-center text-success">------OR-------</div>
+                        <div className="mt-2 text-center text-white">------OR-------</div>
                         <button onClick={handleGoogleSignin} className="mt-2 form-control">
                             <span className="text-success">    < BsGoogle /></span>  Login With Google</button>
                     </div>
@@ -51,7 +51,7 @@ const Login = () => {
                 </div>
             </div>
 
-        </div>
+        </div >
 
     );
 };
