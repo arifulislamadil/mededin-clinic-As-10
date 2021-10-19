@@ -6,7 +6,7 @@ const About = () => {
         <div className="container">
             <p className="sub-title "><span>----</span>About Us<spap>----</spap></p>
             <h3 className="text-center mb-4 fw-bold">About Mededin Clinic</h3>
-            <div className="sub-header p-5">
+            <div className="sub-header p-3">
                 <div className="row p-3">
                     <div className="col-md-6">
                         <div>
@@ -25,7 +25,6 @@ const About = () => {
                                 <div className="col-md-6 p-2 bg-card-about">
                                     <h3>215+</h3>
                                     <p>Expert Doctors</p>
-
                                 </div>
                             </div>
                             <div className="row">
