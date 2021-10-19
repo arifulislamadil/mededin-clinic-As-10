@@ -13,9 +13,11 @@ const useFirebase = () => {
     const [password, setPassword] = useState('');
 
     const loginWithGoogle = () => {
-        signInWithPopup(auth, googleProvider)
-            .then(result => setUser(result.user))
-            .catch((error) => setError(error.message));
+
+        return signInWithPopup(auth, googleProvider)
+
+
+
     }
 
     useEffect(() => {
@@ -62,7 +64,7 @@ const useFirebase = () => {
 
 
 
-    return { loginWithGoogle, user, error, handleLogout, handleRegistration, handleEmail, handlePassword }
+    return { loginWithGoogle, setError, setUser, user, error, handleLogout, handleRegistration, handleEmail, handlePassword }
 
 }
 export default useFirebase;

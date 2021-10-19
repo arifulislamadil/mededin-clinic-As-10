@@ -2,10 +2,10 @@ import React from 'react';
 
 const Team = () => {
     return (
-        <div className="container mt-3">
+        <div className="container mt-4 mb-5">
             <div className=" text-center">
                 <p className="sub-title"><span>----</span>Our Team<span>----</span></p>
-                <h3>Our Dedicated Doctors</h3>
+                <h3 className="mb-4">Our Dedicated Doctors</h3>
             </div>
             <div className="row">
                 <div className="col-md-3">
@@ -38,9 +38,6 @@ const Team = () => {
                 </div>
             </div>
         </div>
-
-
-
     );
 };
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import "./Banner.css"
 
 const Banner = () => {
     return (
@@ -8,16 +9,14 @@ const Banner = () => {
 
                 <div class="col-12 col-md-6 col-lg-5 d-flex align-items-center">
                     <div class="main-title">
-                        <span>We are here for you</span>
+
                         <h1>
                             What Makes Us Better, Makes You Better.
                         </h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu lacus ex.
-                            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-                            ipsum dolor sit amet.
+                            A clinic is a health facility that is primarily focused on the care of outpatients. Clinics can be privately operated or publicly managed and funded.
                         </p>
-                        <Link to="/" className="btn btn-primary" tabindex="-1">Make Appointment</Link>
+                        <Link to="/" className="banner-btn" tabindex="-1">Make Appointment</Link>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-7 d-flex align-items-end">

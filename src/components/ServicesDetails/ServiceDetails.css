@@ -4,6 +4,7 @@
     padding: 30px;
     border: 10px solid rgb(248, 248, 248);
     transition: all 0.3s ease;
+   
 }
 
 .service-block:hover{
@@ -26,6 +27,5 @@
 
 .service-block a:hover{
      background-color: #acdfbd;
-  
     color: rgb(255, 255, 255);
 }

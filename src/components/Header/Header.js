@@ -22,93 +22,83 @@ const Header = () => {
                                     className="ms-auto my-2 my-lg-0 "
                                     style={{ maxHeight: '100px' }}
                                     navbarScroll >
-                                    <NavLink className="me-2 text-decoration-none link-style"
+                                    <NavLink className="me-2 text-dark text-decoration-none link-style"
                                         to="/home"
                                         activeStyle={{
                                             fontWeight: "bold",
-                                            color: "red"
+                                            color: " #3bf178"
                                         }}
                                     >
                                         Home
                                     </NavLink>
-                                    <NavLink className="me-2 text-decoration-none link-style"
+                                    <NavLink className="me-2 text-dark text-decoration-none link-style"
                                         to="/about"
                                         activeStyle={{
-                                            fontWeight: "bold",
-                                            color: "#acdfbd"
+                                            fontWeight: "bolder",
+                                            color: " #3bf178"
                                         }}
                                     >
                                         About
                                     </NavLink>
 
-                                    <NavLink className="me-2 text-decoration-none link-style"
+                                    <NavLink className="me-2 text-dark  text-decoration-none link-style"
                                         to="/services"
                                         activeStyle={{
                                             fontWeight: "bold",
-                                            color: "red"
+                                            color: " #3bf178"
                                         }}
                                     >
                                         Services
                                     </NavLink>
-                                    <NavLink className="me-2 text-decoration-none link-style"
+                                    <NavLink className="me-2 text-dark  text-decoration-none link-style"
                                         to="/team"
                                         activeStyle={{
                                             fontWeight: "bold",
-                                            color: "red"
+                                            color: " #3bf178"
+
                                         }}
                                     >
                                         Team
                                     </NavLink>
-                                    <NavLink className="me-2 text-decoration-none link-style"
+                                    <NavLink className="me-2 text-dark  text-decoration-none link-style"
                                         to="/blog"
                                         activeStyle={{
                                             fontWeight: "bold",
-                                            color: "red"
+                                            color: " #3bf178"
                                         }}
                                     >
                                         Blog
                                     </NavLink>
-                                    <NavLink className="me-2 text-decoration-none link-style"
+                                    <NavLink className="me-2 text-dark  text-decoration-none link-style"
                                         to="/contact"
                                         activeStyle={{
                                             fontWeight: "bold",
-                                            color: "red"
+                                            color: " #3bf178"
                                         }}
                                     >
                                         Contact
                                     </NavLink>
 
-                                    <NavLink className="me-2 text-decoration-none link-style"
+                                    <NavLink className="me-2 text-dark  text-decoration-none link-style"
                                         to="/register"
                                         activeStyle={{
                                             fontWeight: "bold",
-                                            color: "red"
+                                            color: " #3bf178"
                                         }}
                                     >
                                         Register
 
                                     </NavLink>
 
-                                    {user.email ? <NavLink onClick={handleLogout} className="me-2 text-decoration-none link-style"
-                                        to="/"
-                                        activeStyle={{
-                                            fontWeight: "bold",
-                                            color: "red"
-                                        }}
-                                    >
-                                        Logout
+                                    {user.email ? <NavLink onClick={handleLogout} className="me-2 btn btn-success pt-1 pb-1 bs-2 be-2 text-decoration-none link-style"
+                                        to="/">
+                                        <span className="text-info">{user.displayName}</span>    Logout
 
                                     </NavLink>
                                         :
-                                        <NavLink className="me-2 text-decoration-none link-style"
-                                            to="/login"
-                                            activeStyle={{
-                                                fontWeight: "bold",
-                                                color: "red"
-                                            }}
-                                        >
+                                        <NavLink className="me-2 btn btn-success pt-1 pb-1 bs-2 be-2 text-decoration-none link-style"
+                                            to="/login">
                                             Signin
-
                                         </NavLink>}
 
 

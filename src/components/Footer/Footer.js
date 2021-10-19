@@ -1,13 +1,12 @@
 import React from 'react';
 import './Footer.css';
 import { BsFillTelephoneFill, BsEnvelope, BsChevronDoubleRight, BsFacebook, BsInstagram, BsTwitter, BsLinkedin } from "react-icons/bs";
-import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
         <div className="footer">
-            <div className="container">
-                <div className="row text-white p-3">
+            <div className="container pt-5 pb-2">
+                <div className="row text-white">
                     <div className="col-md-4 footer-contact">
                         <div>
                             <img src="https://demo.web3canvas.com/themeforest/medenin/images/foot-logo.png" alt="" />
@@ -23,7 +22,7 @@ const Footer = () => {
                     <div className="col-md-8">
                         <div className="row">
                             <div className="col-md-4">
-                                <h4>Quick Links</h4>
+                                <h4 className="text-success">Quick Links</h4>
                                 <ul className="footer-links">
                                     <li>
                                         <BsChevronDoubleRight />
@@ -49,51 +48,51 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div className="col-md-4">
-                                <h4>Quick Links</h4>
+                                <h4 className="text-success">Our Services</h4>
                                 <ul className="footer-links">
                                     <li>
                                         <BsChevronDoubleRight />
-                                        <a href="/">Home</a>
+                                        <a href="/">Pediatrics</a>
                                     </li>
                                     <li>
                                         <BsChevronDoubleRight />
-                                        <a href="/">About</a>
+                                        <a href="/">Dermatology</a>
                                     </li>
                                     <li>
                                         <BsChevronDoubleRight />
-                                        <a href="/">Our Services</a>
+                                        <a href="/">Cardiology</a>
                                     </li>
                                     <li>
                                         <BsChevronDoubleRight />
-                                        <a href="/">Blogs & News</a>
+                                        <a href="/">Psychological</a>
                                     </li>
                                     <li>
                                         <BsChevronDoubleRight />
-                                        <a href="/">Contact Us</a>
+                                        <a href="/">Surgery</a>
                                     </li>
 
                                 </ul>
                             </div>
                             <div className="col-md-4 footer-social">
                                 <div className="foot-link-box footlink-box_btn p-3">
-                                    <a href="#" className="btn btn-outline-success w-100">Find a Doctor</a>
+                                    <a href="/" className="mt-2 btn btn-outline-success w-100">Find a Doctor</a>
                                     <br />
 
-                                    <a href="#" className="btn btn-outline-success w-100">Career</a>
+                                    <a href="/" className="mt-2 btn btn-outline-success w-100">Career</a>
                                     <br />
-                                    <a href="#" className="btn btn-outline-success w-100">Newsletter</a>
-                                    <ul>
+                                    <a href="/" className="mt-2 btn btn-outline-success w-100">Newsletter</a>
+                                    <ul className="mt-3">
                                         <li>
-                                            <a href="#"><BsFacebook /></a>
+                                            <a href="/"><BsFacebook /></a>
                                         </li>
                                         <li>
-                                            <a href="#"><BsInstagram /></a>
+                                            <a href="/"><BsInstagram /></a>
                                         </li>
                                         <li>
-                                            <a href="#"><BsTwitter /></a>
+                                            <a href="/"><BsTwitter /></a>
                                         </li>
                                         <li>
-                                            <a href="#"><BsLinkedin /></a>
+                                            <a href="/"><BsLinkedin /></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -101,6 +100,9 @@ const Footer = () => {
                         </div>
 
                     </div>
+                </div>
+                <div className="mt-5 mb-2 text-success footer border border-secondary border-bottom-0 border-start-0 border-end-0">
+                    <p className=" mb-0 text-center">© 2021 Mednenin, All Rights Reserved. Design By Ariful Islam Adil</p>
                 </div>
             </div>
         </div>

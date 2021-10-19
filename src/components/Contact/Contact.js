@@ -11,7 +11,7 @@ const Contact = () => {
             <div className="container overfolw-contact text-light">
                 <div className="row bg-color">
                     <div className="col-md-6 p-2">
-                        <div className="p-4">
+                        <div className="pt-2">
                             <div className="contact-info">
                                 <span><BsFillHouseFill /></span>
                                 <h6>Address</h6>
@@ -36,13 +36,13 @@ const Contact = () => {
                     </div>
 
                     <div className="col md-6 contact-form form-body mt-3">
-                        <div className="form-text p-2">
+                        <div className="form-text pb-3">
 
                             <br />
                             <input className=" form-control" type="text" placeholder="Your Name" /><br />
                             <input className="mt-1 form-control" type="text" placeholder="Your Email Address" /><br />
                             <textarea className="mt-1 mb-0 form-control" name="" id="" cols="30" rows="10" placeholder="Type Your Message Here"></textarea>
-                            <button className='btn-contact mt-2 form-control' >Submit</button>
+                            <button className='btn-contact mt-2 form-control fs-5 text-success' >Send</button>
                         </div>
                     </div>
 

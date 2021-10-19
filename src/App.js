@@ -10,6 +10,7 @@ import Login from './components/Login/Login';
 import NotFound from './components/NotFound/NotFound';
 import Register from './components/Register/Register';
 import Services from './components/Services/Services';
+import SingleService from './components/SingleService/SingleService';
 import Team from './components/Team/Team';
 import AuthProvider from './Context/AuthProvider';
 import PrivateRoute from './Private/PrivateRoute';
@@ -31,12 +32,17 @@ function App() {
             <Route exact path="/about">
               <About></About>
             </Route>
+
             <PrivateRoute exact path="/services">
               <Services></Services>
             </PrivateRoute>
-            <Route exact path="/team">
-              <Team></Team>
+            <Route exact path="/singleservice">
+              <SingleService></SingleService>
             </Route>
+
+            <PrivateRoute exact path="/team">
+              <Team></Team>
+            </PrivateRoute>
             <Route exact path="/blog">
               <Blog></Blog>
             </Route>

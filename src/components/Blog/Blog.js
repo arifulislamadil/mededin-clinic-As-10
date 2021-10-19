@@ -18,7 +18,7 @@ const Blog = () => {
                         between marriage and medicine...</h5>
                 </div>
                 <div className="col-md-3 mt-4">
-                    <a href="#" className="blog-btn">READ MORE</a>
+                    <a href="/" className="blog-btn bg-success">READ MORE</a>
                 </div>
             </div>
 
@@ -32,7 +32,7 @@ const Blog = () => {
                     <h5 className="blog-content">Skin care import for young people and child it's given them better feelings and the feel good...</h5>
                 </div>
                 <div className="col-md-3 mt-4">
-                    <a href="#" className="blog-btn">READ MORE</a>
+                    <a href="/" className="blog-btn bg-success">READ MORE</a>
                 </div>
             </div>
 
@@ -47,7 +47,7 @@ const Blog = () => {
                     <h5 className="blog-content">Covid-19 incress lots of tension and lots pressure among to yourng generations and they think....</h5>
                 </div>
                 <div className="col-md-3 mt-4">
-                    <a href="#" className="blog-btn">READ MORE</a>
+                    <a href="/" className="blog-btn bg-success">READ MORE</a>
                 </div>
             </div>
 
@@ -61,7 +61,7 @@ const Blog = () => {
                     <h5 className="blog-content">Care your healt when you are getting older.lots of artical published....</h5>
                 </div>
                 <div className="col-md-3 mt-4">
-                    <a href="#" className="blog-btn">READ MORE</a>
+                    <a href="/" className="blog-btn bg-success">READ MORE</a>
                 </div>
             </div>
 

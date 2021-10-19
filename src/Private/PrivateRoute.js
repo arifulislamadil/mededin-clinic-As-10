@@ -14,7 +14,7 @@ const PrivateRoute = ({ children, ...rest }) => {
     const { user } = useAuth();
     let history = useHistory();
     let location = useLocation();
-    console.log(user)
+
     return (
 
         <Route
