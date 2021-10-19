@@ -10,9 +10,9 @@ const Blog = () => {
             </div>
             <div className="row mt-3">
                 <div className="col-md-3">
-                    <img src="https://demo.web3canvas.com/themeforest/medenin/images/blog-img1.jpg" alt="" />
+                    <img className="img-fluid" src="https://demo.web3canvas.com/themeforest/medenin/images/blog-img1.jpg" alt="" />
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 mt-2">
                     ---<span>January 12 2019 | By Admin</span>
                     <h5 className="blog-content">Finding meaning in the intersection
                         between marriage and medicine...</h5>
@@ -25,9 +25,9 @@ const Blog = () => {
 
             <div className="row mt-3">
                 <div className="col-md-3">
-                    <img src="https://demo.web3canvas.com/themeforest/medenin/images/blog-img2.jpg" alt="" />
+                    <img className="img-fluid" src="https://demo.web3canvas.com/themeforest/medenin/images/blog-img2.jpg" alt="" />
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 mt-2">
                     ---<span>Aprial 12 2020 | By Admin</span>
                     <h5 className="blog-content">Skin care import for young people and child it's given them better feelings and the feel good...</h5>
                 </div>
@@ -40,9 +40,9 @@ const Blog = () => {
 
             <div className="row mt-3">
                 <div className="col-md-3">
-                    <img src="https://demo.web3canvas.com/themeforest/medenin/images/blog-img3.jpg" alt="" />
+                    <img className="img-fluid" src="https://demo.web3canvas.com/themeforest/medenin/images/blog-img3.jpg" alt="" />
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 mt-2">
                     ---<span>March 10 2020 | By Admin</span>
                     <h5 className="blog-content">Covid-19 incress lots of tension and lots pressure among to yourng generations and they think....</h5>
                 </div>
@@ -54,9 +54,9 @@ const Blog = () => {
 
             <div className="row mt-3">
                 <div className="col-md-3">
-                    <img src="https://demo.web3canvas.com/themeforest/medenin/images/blog-img4.jpg" alt="" />
+                    <img className="img-fluid" src="https://demo.web3canvas.com/themeforest/medenin/images/blog-img4.jpg" alt="" />
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 mt-2">
                     ---<span>Februaray 22 2019 | By Admin</span>
                     <h5 className="blog-content">Care your healt when you are getting older.lots of artical published....</h5>
                 </div>

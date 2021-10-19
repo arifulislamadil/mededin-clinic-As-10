@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer">
             <div className="container pt-5 pb-2">
                 <div className="row text-white">
-                    <div className="col-md-4 footer-contact">
+                    <div className="col-md-4 footer-contact pt-3 pb-3">
                         <div>
                             <img src="https://demo.web3canvas.com/themeforest/medenin/images/foot-logo.png" alt="" />
                         </div>

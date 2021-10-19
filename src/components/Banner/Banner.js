@@ -7,7 +7,7 @@ const Banner = () => {
         <div className="container">
             <div className="row">
 
-                <div class="col-12 col-md-6 col-lg-5 d-flex align-items-center">
+                <div class="col-12 col-md-6 col-lg-5 mt-2 mb-2 p-sm-5 d-flex align-items-center">
                     <div class="main-title">
 
                         <h1>
@@ -19,9 +19,9 @@ const Banner = () => {
                         <Link to="/" className="banner-btn" tabindex="-1">Make Appointment</Link>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-7 d-flex align-items-end">
+                <div class="col-12 col-md-6 mt-2 mb-2 col-lg-7 d-flex align-items-end">
                     <div class="anim-container flex-fill">
-                        <img src="https://demo.web3canvas.com/themeforest/medenin/images/hero-doctor-1.png" alt="" />
+                        <img className="img-fluid" src="https://demo.web3canvas.com/themeforest/medenin/images/hero-doctor-1.png" alt="" />
 
                     </div>
                 </div>

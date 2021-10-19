@@ -59,6 +59,7 @@ const useFirebase = () => {
 
     const handlePassword = (e) => {
         setPassword(e.target.value)
+
     }
 
 
