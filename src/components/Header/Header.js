@@ -1,9 +1,10 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
-import { BsPersonCircle } from "react-icons/bs";
+import useFirebase from '../../Hooks/useFirebase';
 
 const Header = () => {
+    const { handleLogout, user } = useFirebase();
     return (
         <div>
             <div className="sticky-top bg-light">
@@ -78,15 +79,38 @@ const Header = () => {
                                     </NavLink>
 
                                     <NavLink className="me-2 text-decoration-none link-style"
-                                        to="/user"
+                                        to="/register"
                                         activeStyle={{
                                             fontWeight: "bold",
                                             color: "red"
                                         }}
                                     >
-                                        <span style={{ cursor: "pointer", color: "red" }} className="text-primary"><BsPersonCircle /></span>
+                                        Register
 
                                     </NavLink>
+
+                                    {user.email ? <NavLink onClick={handleLogout} className="me-2 text-decoration-none link-style"
+                                        to="/"
+                                        activeStyle={{
+                                            fontWeight: "bold",
+                                            color: "red"
+                                        }}
+                                    >
+                                        Logout
+
+                                    </NavLink>
+                                        :
+                                        <NavLink className="me-2 text-decoration-none link-style"
+                                            to="/login"
+                                            activeStyle={{
+                                                fontWeight: "bold",
+                                                color: "red"
+                                            }}
+                                        >
+                                            Signin
+
+                                        </NavLink>}
+
 
                                 </Nav>
                             </Navbar.Collapse>

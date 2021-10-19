@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./ServiceDetails.css"
 
 const ServicesDetails = (props) => {
@@ -10,7 +11,7 @@ const ServicesDetails = (props) => {
                 <h3>{service_name}</h3>
                 <h4>{doctor}</h4>
                 <p>{description.slice(0, 50)}</p>
-                <a href="/">Read More</a>
+                <Link to="/services">Read More</Link>
             </div>
         </div>
     );
